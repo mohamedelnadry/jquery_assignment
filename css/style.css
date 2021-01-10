@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.headers{
+    
+    color: white;
+    transition: margin-left .5s;
+    padding: 16px;
+
+}
+.headers h1{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+    
+}
+.headers p{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 10px;
+}
+.headers span{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    transition: 0.5s;
+    margin-left: 15px;
+
+}
+#event{
+    height: 100vh;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.sidenav{
+    width: 250px;
+    position: fixed;
+    background-color: #414658;
+    z-index: 1;
+    top: 0;
+    left: -250;
+    height: 100%;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow: hidden;
+}
+.sidenav ul,span{
+    list-style: none;
+    color: white;
+}
+.sidenav ul li a{
+    padding: 20px 8px 20px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: .3s;
+    color: white !important;
+}
+.sidenav span{
+    position: absolute;
+    top: 20;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sidenav ul li a:hover{
+    color: tomato !important;
+    opacity: .6;
+}
+.sidenav span:hover{
+    color: tomato !important;
+    opacity: .6;
+}
+.slide h3{
+    background-color: rgba(214, 46, 51 , 0.6) !important;
+    cursor: pointer;
+    padding: 10px !important;
+    color: white;
+}
+.slide .slideText{
+    background-color: #ccc;
+    padding: 10px;
+    display: none;
+
+}
+.slide{
+    margin: 100px auto;
+    padding: 0px;
+    
+}
+.slide h3,.slideText{
+    padding: 0;
+    margin: 0;
+}
+#countsec{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative !important;
+    height: 330px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.timer{
+    height: 330px;
+    margin: auto;
+}
+.day{
+    padding: 50px;
+    border: 1px solid white;
+    color: white;
+}
+#hire-me{
+    margin-top: 100px;
+    padding: 100px 0px;
+}
+.head h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.head p{
+    text-align: center;
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.coninfo h3{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.coninfo p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+    text-align: center;
+}
+.coninfo .cinfo p{
+    margin-bottom: 35px;
+}
+.cinfo{
+    margin-top: 50px;
+}
+#hire-me i{
+    margin-right: 20px;
+    color: #777;
+}
+.icons{
+    margin-top: 60px;
+    color: #777;
+}
+.icons i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#hire-me form input{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#hire-me form textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#num1{
+    font-size: 20px;
+    color: #D62E33;
+}
+#hire-me form button{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+
+}
+#hire-me .red{
+    color: #D62E33 !important;
+}
